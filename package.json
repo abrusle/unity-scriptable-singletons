@@ -2,7 +2,7 @@
     "name": "net.abrusle.scriptable-singletons",
     "displayName":"Scriptable Singletons",
     "description":"Easy to use singleton implementation for ScriptableObjects in Unity.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "unity":"2019.1",
     "author": {
         "name": "Abrusle",
