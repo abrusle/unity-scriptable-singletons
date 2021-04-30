@@ -47,7 +47,7 @@ public abstract class ScriptableSingleton<TObject> : ScriptableObject where TObj
             if (_Instance != null && _Instance != this)
             {
                 Debug.LogError($"An instance of {typeof(TObject)} already exist.");
-                DestroyImmediate(this);
+                DestroyImmediate(this, true);
             }
         }
 #endif
